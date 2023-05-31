@@ -14,15 +14,15 @@ if(isset($_POST['fname']) &&
     
     if (empty($fname)) {
     	$em = "Full name is required";
-    	header("Location: accnt-crtn.php?error=$em&$data");
+    	header("Location: index.php?error=$em&$data");
 	    exit;
     }else if(empty($uname)){
     	$em = "User name is required";
-    	header("Location: accnt-crtn.php?error=$em&$data");
+    	header("Location: index.php?error=$em&$data");
 	    exit;
     }else if(empty($pass)){
     	$em = "Password is required";
-    	header("Location: accnt-crtn.php?error=$em&$data");
+    	header("Location: index.php?error=$em&$data");
 	    exit;
     }else {
 
@@ -34,12 +34,12 @@ if(isset($_POST['fname']) &&
     	$stmt = $conn->prepare($sql);
     	$stmt->execute([$fname, $uname, $pass]);
 
-    	header("Location: accnt-crtn.php?success=Your account has been created successfully");
+    	header("Location: index.php?success=Your account has been created successfully");
 	    exit;
     }
 
 
 }else {
-	header("Location: accnt-crtn.php?error=error");
+	header("Location: index.php?error=error");
 	exit;
 }
