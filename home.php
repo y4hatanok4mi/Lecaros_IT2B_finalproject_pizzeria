@@ -38,9 +38,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li>
-							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="register.html">Login</a></li>		
+							<li><a href="cart.php">Your Cart</a></li>
+							<li><a href="checkout.php">Checkout</a></li>					
+							<li><a href="register.php">Login</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -49,10 +49,10 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><img src="themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
+					<a href="index.php" class="logo pull-left"><img src="themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Best Seller</a></li>
+							<li><a href="./products.php">Best Seller</a></li>
 							
 						</ul>
 					</nav>
@@ -97,34 +97,34 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="Pizzas/Classic Tuna.html"><img src="themes/images/Pizza Photos/Classic Tuna/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/Classic Tuna.html" class="title">Classic Tuna</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/Classic Tuna.php"><img src="themes/images/Pizza Photos/Classic Tuna/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/Classic Tuna.php" class="title">Classic Tuna</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱260.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="Pizzas/Supreme.html"><img src="themes/images/Pizza Photos/Supreme/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/Supreme.html" class="title">Supreme</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/Supreme.php"><img src="themes/images/Pizza Photos/Supreme/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/Supreme.php" class="title">Supreme</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱339.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Pizzas/Vegetarian.html"><img src="themes/images/Pizza Photos/Vegetarian/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/Vegetarian.html" class="title">Vegetarian</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/Vegetarian.php"><img src="themes/images/Pizza Photos/Vegetarian/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/Vegetarian.php" class="title">Vegetarian</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱280.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Pizzas/Beef and Mushroom.html"><img src="themes/images/Pizza Photos/Beef and Mushroom/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/Beef and Mushroom.html" class="title">Beef and Mushroom</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/Beef and Mushroom.php"><img src="themes/images/Pizza Photos/Beef and Mushroom/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/Beef and Mushroom.php" class="title">Beef and Mushroom</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱309.00</p>
 													</div>
 												</li>
@@ -134,17 +134,17 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Pizzas/All Cheese.html"><img src="themes/images/Pizza Photos/All Cheese/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/All Cheese.html" class="title">All Cheese</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/All Cheese.php"><img src="themes/images/Pizza Photos/All Cheese/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/All Cheese.php" class="title">All Cheese</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱260.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Pizzas/All Meat.html"><img src="themes/images/Pizza Photos/All Meat/Main.jpg" alt="" /></a></p>
-														<a href="Pizzas/All Meat.html" class="title">All Meat</a><br/>
-														<a href="products.html" class="category"></a>
+														<p><a href="Pizzas/All Meat.php"><img src="themes/images/Pizza Photos/All Meat/Main.jpg" alt="" /></a></p>
+														<a href="Pizzas/All Meat.php" class="title">All Meat</a><br/>
+														<a href="products.php" class="category"></a>
 														<p class="price">₱328.00</p>
 													</div>
 												</li>
@@ -171,16 +171,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Ham and Cheese.html"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
-														<a href="Ham and Cheese.html" class="title">Ham and Cheese</a><br/>
+														<a href="Pizzas/Ham and Cheese.php"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
+														<a href="Ham and Cheese.php" class="title">Ham and Cheese</a><br/>
 														<a href="#" class="category">Smoked ham and Mozarella Cheese</a>
 														<p class="price">₱260.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">												
-														<a href="Pizzas/Peperoni.html"><img alt="" src="themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
-														<a href="Pizzas/Peperoni.html" class="title">Pepperoni</a><br/>
+														<a href="Pizzas/Peperoni.php"><img alt="" src="themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
+														<a href="Pizzas/Peperoni.php" class="title">Pepperoni</a><br/>
 														<a href="#" class="category">Pepperoni, Black Olives and Mozarella</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -188,8 +188,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Hawaiian Overload.html"><img alt="" src="themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
-														<a href="Pizzas/Hawaiian Overload.html" class="title">Hawaiian Overload</a><br/>
+														<a href="Pizzas/Hawaiian Overload.php"><img alt="" src="themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
+														<a href="Pizzas/Hawaiian Overload.php" class="title">Hawaiian Overload</a><br/>
 														<a href="#" class="category">Smoked ham, pineapple, bell pepper and mozarella cheese</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -197,8 +197,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Italian Delight.html"><img alt="" src="themes/images/Pizza Photos/Italian Delight/Main.jpg"></a><br/>
-														<a href="Pizzas/Italian Delight.html" class="title">Italian Delight</a><br/>
+														<a href="Pizzas/Italian Delight.php"><img alt="" src="themes/images/Pizza Photos/Italian Delight/Main.jpg"></a><br/>
+														<a href="Pizzas/Italian Delight.php" class="title">Italian Delight</a><br/>
 														<a href="#" class="category">Smoked ham and Mozarella Cheese</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -212,16 +212,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Ham and Cheese.html"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
-														<a href="Pizzas/Ham and Cheese.html" class="title">Ham and Cheese</a><br/>
+														<a href="Pizzas/Ham and Cheese.php"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
+														<a href="Pizzas/Ham and Cheese.php" class="title">Ham and Cheese</a><br/>
 														<a href="#" class="category">Smoked ham and Mozarella Cheese</a>
 														<p class="price">₱260.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">												
-														<a href="Pizzas/Peperoni.html"><img alt="" src="themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
-														<a href="Pizzas/Peperoni.html" class="title">Pepperoni</a><br/>
+														<a href="Pizzas/Peperoni.php"><img alt="" src="themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
+														<a href="Pizzas/Peperoni.php" class="title">Pepperoni</a><br/>
 														<a href="#" class="category">Pepperoni, Black Olives and Mozarella</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -229,8 +229,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Hawaiian Overload.html"><img alt="" src="themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
-														<a href="Pizzas/Hawaiian Overload.html" class="title">Hawaiian Overload</a><br/>
+														<a href="Pizzas/Hawaiian Overload.php"><img alt="" src="themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
+														<a href="Pizzas/Hawaiian Overload.php" class="title">Hawaiian Overload</a><br/>
 														<a href="#" class="category">Smoked ham, pineapple, bell pepper and mozarella cheese</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -238,8 +238,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Pizzas/Italian Delight.html"><img alt="" src="themes/images/Pizza Photos/Italian Delight/Main.jpg"></a><br/>
-														<a href="Pizzas/Italian Delight.html" class="title">Italian Delight</a><br/>
+														<a href="Pizzas/Italian Delight.php"><img alt="" src="themes/images/Pizza Photos/Italian Delight/Main.jpg"></a><br/>
+														<a href="Pizzas/Italian Delight.php" class="title">Italian Delight</a><br/>
 														<a href="#" class="category">Smoked ham and Mozarella Cheese</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -289,11 +289,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Homepage</a></li>  
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./contact.html">Contact Us</a></li>
-							<li><a href="./cart.html">Your Cart</a></li>
-							<li><a href="./register.html">Login</a></li>							
+							<li><a href="./index.php">Homepage</a></li>  
+							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">Contact Us</a></li>
+							<li><a href="./cart.php">Your Cart</a></li>
+							<li><a href="./register.php">Login</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">
