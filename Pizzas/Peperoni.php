@@ -40,9 +40,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="../cart.html">Your Cart</a></li>
-							<li><a href="../checkout.html">Checkout</a></li>					
-							<li><a href="../register.html">Login</a></li>		
+							<li><a href="../cart.php">Your Cart</a></li>
+							<li><a href="../checkout.php">Checkout</a></li>					
+							<li><a href="../register.php">Login</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -51,10 +51,10 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="../index.html" class="logo pull-left"><img src="../themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
+					<a href="../home.php" class="logo pull-left"><img src="../themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="../products.html">Best Seller</a></li>
+							<li><a href="../products.php">Best Seller</a></li>
 							
 						</ul>
 					</nav>
@@ -139,8 +139,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Ham and Cheese.html"><img alt="" src="../themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
-														<a href="Ham and Cheese.html" class="title">Ham and Cheese</a><br/>
+														<a href="Ham and Cheese.php"><img alt="" src="../themes/images/Pizza Photos/Ham and Cheese/Main.jpg"></a><br/>
+														<a href="Ham and Cheese.php" class="title">Ham and Cheese</a><br/>
 														<a href="#" class="category">Smoked ham and Mozarella Cheese</a>
 														<p class="price">₱260.00</p>
 													</div>
@@ -148,16 +148,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="Hawaiian Overload.html"><img alt="" src="../themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
-														<a href="Hawaiian Overload.html" class="title">Hawaiian Overload</a><br/>
+														<a href="Hawaiian Overload.php"><img alt="" src="../themes/images/Pizza Photos/Hawaiian Overload/Main.jpg"></a><br/>
+														<a href="Hawaiian Overload.php" class="title">Hawaiian Overload</a><br/>
 														<a href="#" class="category">Smoked ham, pineapple, bell pepper and mozarella cheese. </a>
 														<p class="price">₱299.00</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
-														<a href="Peperoni.html"><img alt="" src="../themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
-														<a href="../product_detail.html" class="title">Pepperoni</a><br/>
+														<a href="Peperoni.php"><img alt="" src="../themes/images/Pizza Photos/Peperoni/Main.jpg"></a><br/>
+														<a href="../product_detail.php" class="title">Pepperoni</a><br/>
 														<a href="#" class="category">Pepperoni, Black Olives and Mozarella</a>
 														<p class="price">₱299.00</p>
 													</div>
@@ -186,7 +186,7 @@
 												<div class="product-box">
 													<span class="sale_tag"></span>
 													<img alt="" src="../themes/images/Pizza Photos/All Cheese/4.jpg"><br/>
-													<a href="product_detail.html" class="title">All Cheese</a><br/>
+													<a href="product_detail.php" class="title">All Cheese</a><br/>
 													<a href="#" class="category">Pizza Cheese, Mozarella and Parmesan</a>
 													<p class="price">₱260.00</p>
 												</div>
@@ -198,7 +198,7 @@
 											<li class="span3">
 												<div class="product-box">
 													<img alt="" src="../themes/images/Pizza Photos/Classic Tuna/1.jpg"><br/>
-													<a href="product_detail.html" class="title">Classic Tuna</a><br/>
+													<a href="product_detail.php" class="title">Classic Tuna</a><br/>
 													<a href="#" class="category">Pizza cheese, Mozarella, tuna, white onion and black olives</a>
 													<p class="price">₱260.00</p>
 												</div>
@@ -212,22 +212,22 @@
 							<h4 class="title"><strong>Best</strong> Seller</h4>
 							<ul class="small-product">
 								<li>
-									<a href="All Cheese.html" title="Praesent tempor sem sodales">
+									<a href="All Cheese.php" title="Praesent tempor sem sodales">
 										<img src="../themes/images/Pizza Photos/All Cheese/4.jpg">
 									</a>
-									<a href="All Cheese.html">All Cheese</a>
+									<a href="All Cheese.php">All Cheese</a>
 								</li>
 								<li>
-									<a href="All Meat.html" title="Luctus quam ultrices rutrum">
+									<a href="All Meat.php" title="Luctus quam ultrices rutrum">
 										<img src="../themes/images/Pizza Photos/All Meat/1.jpg" >
 									</a>
-									<a href="Pizzas/All Meat.html">All Meat</a>
+									<a href="Pizzas/All Meat.php">All Meat</a>
 								</li>
 								<li>
-									<a href="Peperoni.html" title="Fusce id molestie massa">
+									<a href="Peperoni.php" title="Fusce id molestie massa">
 										<img src="../themes/images/Pizza Photos/Peperoni/Main - Copy.jpg">
 									</a>
-									<a href="Peperoni.html">Pepperoni</a>
+									<a href="Peperoni.php">Pepperoni</a>
 								</li>
 							</ul>
 						</div>
@@ -239,11 +239,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="../index.html">Homepage</a></li>  
-							<li><a href="../about.html">About Us</a></li>
-							<li><a href="../contact.html">Contact Us</a></li>
-							<li><a href="../cart.html">Your Cart</a></li>
-							<li><a href="../register.html">Login</a></li>							
+							<li><a href="../home.php">Homepage</a></li>  
+							<li><a href="../about.php">About Us</a></li>
+							<li><a href="../contact.php">Contact Us</a></li>
+							<li><a href="../cart.php">Your Cart</a></li>
+							<li><a href="../register.php">Login</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">

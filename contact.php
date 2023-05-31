@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap E-commerce Templates</title>
+		<title>Caren's Pizzeria</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -37,9 +37,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li>
-							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="register.html">Login</a></li>			
+							<li><a href="cart.php">Your Cart</a></li>
+							<li><a href="checkout.php">Checkout</a></li>					
+							<li><a href="register.php">Login</a></li>			
 						</ul>
 					</div>
 				</div>
@@ -48,11 +48,11 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
+					<a href="home.php" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Best Seller</a></li>
-							<li><a href="./products.html">Top Seller</a></li>
+							<li><a href="./products.php">Best Seller</a></li>
+							<li><a href="./products.php">Top Seller</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -74,7 +74,7 @@
 							<strong>Email:</strong>&nbsp;<a href="#">vietcuong_it@yahoo.com</a>								
 							</p>
 							<br/>
-							<h5>SECONDARY OFFICE IN VIETNAM</h5>
+							<h5>SECONDARY OFFICE IN MARINDUQUE</h5>
 							<p><strong>Phone:</strong>&nbsp;(113) 023-1125<br>
 							<strong>Fax:</strong>&nbsp;+04 (113) 023-1145<br>
 							<strong>Email:</strong>&nbsp;<a href="#">vietcuong_it@yahoo.com</a>					
@@ -88,26 +88,26 @@
 								<div class="clearfix">
 									<label for="name"><span>Name:</span></label>
 									<div class="input">
-										<input tabindex="1" size="18" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Name">
+										<input tabhome="1" size="18" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Name">
 									</div>
 								</div>
 								
 								<div class="clearfix">
 									<label for="email"><span>Email:</span></label>
 									<div class="input">
-										<input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Email Address">
+										<input tabhome="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Email Address">
 									</div>
 								</div>
 								
 								<div class="clearfix">
 									<label for="message"><span>Message:</span></label>
 									<div class="input">
-										<textarea tabindex="3" class="input-xlarge" id="message" name="body" rows="7" placeholder="Message"></textarea>
+										<textarea tabhome="3" class="input-xlarge" id="message" name="body" rows="7" placeholder="Message"></textarea>
 									</div>
 								</div>
 								
 								<div class="actions">
-									<button tabindex="3" type="submit" class="btn btn-inverse">Send message</button>
+									<button tabhome="3" type="submit" class="btn btn-inverse">Send message</button>
 								</div>
 							</fieldset>
 						</form>
@@ -119,11 +119,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Homepage</a></li>  
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./contact.html">Contac Us</a></li>
-							<li><a href="./cart.html">Your Cart</a></li>
-							<li><a href="./register.html">Login</a></li>							
+							<li><a href="./home.php">Homepage</a></li>  
+							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">Contac Us</a></li>
+							<li><a href="./cart.php">Your Cart</a></li>
+							<li><a href="./register.php">Login</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">
@@ -149,7 +149,7 @@
 				</div>	
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
+				<span>Copyright 2023 All right reserved.</span>
 			</section>
 		</div>
 		<script src="themes/js/common.js"></script>		

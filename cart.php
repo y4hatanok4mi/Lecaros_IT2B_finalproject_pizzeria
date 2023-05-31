@@ -37,9 +37,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li>
-							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="register.html">Login</a></li>			
+							<li><a href="cart.php">Your Cart</a></li>
+							<li><a href="checkout.php">Checkout</a></li>					
+							<li><a href="register.php">Login</a></li>			
 						</ul>
 					</div>
 				</div>
@@ -48,10 +48,10 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><img src="themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
+					<a href="home.php" class="logo pull-left"><img src="themes/images/pizzeria-logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Best Seller</a></li>
+							<li><a href="./products.php">Best Seller</a></li>
 			
 						</ul>
 					</nav>
@@ -79,7 +79,7 @@
 							<tbody>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/Pizza Photos/Supreme/2.jpg"></a></td>
+									<td><a href="product_detail.php"><img alt="" src="themes/images/Pizza Photos/Supreme/2.jpg"></a></td>
 									<td>Supreme</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
 									<td>₱399.00</td>
@@ -87,7 +87,7 @@
 								</tr>			  
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/Pizza Photos/Hawaiiain Classic/1.jpg"></a></td>
+									<td><a href="product_detail.php"><img alt="" src="themes/images/Pizza Photos/Hawaiiain Classic/1.jpg"></a></td>
 									<td>Hawaiiann Classic</td>
 									<td><input type="text" placeholder="2" class="input-mini"></td>
 									<td>₱260.00</td>
@@ -95,7 +95,7 @@
 								</tr>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/1.jpg"></a></td>
+									<td><a href="product_detail.php"><img alt="" src="themes/images/Pizza Photos/Ham and Cheese/1.jpg"></a></td>
 									<td>Ham and Cheese</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
 									<td>₱260.00</td>
@@ -142,11 +142,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Homepage</a></li>  
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./contact.html">Contact Us</a></li>
-							<li><a href="./cart.html">Your Cart</a></li>
-							<li><a href="./register.html">Login</a></li>							
+							<li><a href="./home.php">Homepage</a></li>  
+							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">Contact Us</a></li>
+							<li><a href="./cart.php">Your Cart</a></li>
+							<li><a href="./register.php">Login</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">
@@ -180,7 +180,7 @@
 		<script>
 			$(document).ready(function() {
 				$('#checkout').click(function (e) {
-					document.location.href = "checkout.html";
+					document.location.href = "checkout.php";
 				})
 			});
 		</script>		
