@@ -65,7 +65,7 @@
 
 				<div class="row">
 					<?php
-						$xmlPizzeria = simplexml_load_file("XML/Pizzeria.xml") or die ("Failed to load");
+						$xmlPizzeria = simplexml_load_file("XML/lecaros_IT2B_pizzeria.xml") or die ("Failed to load");
 						$count = 1;
 					foreach ($xmlPizzeria->children() as $Pizzeria) { ?>
 					<div class="span9">
