@@ -39,7 +39,7 @@
 							<li><a href="#">My Account</a></li>
 							<li><a href="cart..php">Your Cart</a></li>
 							<li><a href="checkout.php">Checkout</a></li>
-							<li><a href="register.php">Login</a></li>
+							<li><a href="logout.php">Logout</a></li>
 						</ul>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 							<li class="span3">
 								<div class="product-box">
 									<span class="sale_tag"></span>
-									<p><a href="Pizzas/Italian Delight..php"><img src="themes/images/Pizza Photos/Italian Delight/Main.jpg" alt="" /></a></p>
+									<p><a href="Pizzas/Italian Delight.php"><img src="themes/images/Pizza Photos/Italian Delight/Main.jpg" alt="" /></a></p>
 									<a href="Pizzas/Italian Delight.php" class="title">Italian Delight</a><br/>
 									<a href="Pizzas/Italian Delight.php" class="category">Salami, Smoked Ham, Mushroom, and Mozarella Cheese</a>
 									<p class="price">₱299.00</p>
@@ -257,11 +257,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./index..php">Homepage</a></li>
-							<li><a href="./about..php">About Us</a></li>
-							<li><a href="./contact..php">Contac Us</a></li>
-							<li><a href="./cart..php">Your Cart</a></li>
-							<li><a href="./register..php">Login</a></li>
+							<li><a href="./home.php">Homepage</a></li>
+							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">Contac Us</a></li>
+							<li><a href="./cart.php">Your Cart</a></li>
+							<li><a href="logout.php">Logout</a></li>
 						</ul>
 					</div>
 					<div class="span4">
