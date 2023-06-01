@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Pizzeria[
+	<!ELEMENT pizza (name, description, price)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+]>
+
+<Pizzeria>
+	<pizza>
+		<name>Classic Tuna</name>
+		<description>Pizza cheese, Mozarella, tuna, white onion and black olives</description>
+		<price>₱260.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Supreme</name>
+		<description>Pepperoni, Beef, Sauteed pork, smoked ham, pineapple, bell pepper, white onion, black olives and mozarella cheese</description>
+		<price>₱399.00</price>	
+	</pizza>
+	
+	<pizza>
+		<name>Vegetarian</name>
+		<description>Sliced Tomato, Mushroom, Pineapple, White Onion, Bell Pepper, Black Olives and Mozarella Cheese</description>
+		<price>₱280.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Beef and Mushroom</name>
+		<description>Sauteed beef, Mozarella cheese Cheese</description>
+		<price>₱309.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Peperoni</name>
+		<description>Peperoni, Black Olives, and Mozarella</description>
+		<price>₱299.00</price>
+	</pizza>
+
+	<pizza>
+		<name>Italian Delight</name>
+		<description>Peperoni, Black Olives, and Mozarella</description>
+		<price>₱299.00</price>
+	</pizza>	
+	
+	<pizza>
+		<name>Hawaiiain Classic</name>
+		<description>All time favourite, Smoked Ham, Pineapple and Mozarella Cheese</description>
+		<price>₱260.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>All Meat</name>
+		<description>Pepperoni, Beef, Sauteed Pork, Smoked Ham, Mushroom and Mozarella Cheese</description>
+		<price>₱328.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Ham and Cheese</name>
+		<description>Smoked Ham and Mozarella Cheese</description>
+		<price>₱260.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>All Cheese</name>
+		<description>Pizza Cheese, Mozarella and Parmesan</description>
+		<price>₱260.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Smoked Ham and Cheese</name>
+		<description>Smoked Ham, Mushroom and Mozarella Cheese</description>
+		<price>₱260.00</price>
+	</pizza>
+	
+	<pizza>
+		<name>Hawaiian Overload</name>
+		<description>All time favourite, with smoked ham, pineapple, bell pepper amd mozarella cheese</description>
+		<price>₱299.00</price>
+	</pizza>
+	
+	
+</Pizzeria>
+

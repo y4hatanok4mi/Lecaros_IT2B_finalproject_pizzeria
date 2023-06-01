@@ -52,7 +52,7 @@
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="./products.php">Best Seller</a></li>
-							<li><a href="./products.php">Top Seller</a></li>
+							<li><a href="./data.php">Pricelist</a></li>
 						</ul>
 					</nav>
 				</div>

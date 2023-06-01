@@ -21,7 +21,7 @@
 		<script src="themes/js/superfish.js"></script>
 		<script src="themes/js/jquery.scrolltotop.js"></script>
 		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://.php5shim.googlecode.com/svn/trunk/.php5.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
@@ -37,7 +37,7 @@
 					<div class="account pull-right">
 						<ul class="user-menu">
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.php">Your Cart</a></li>
+							<li><a href="cart..php">Your Cart</a></li>
 							<li><a href="checkout.php">Checkout</a></li>
 							<li><a href="register.php">Login</a></li>
 						</ul>
@@ -52,6 +52,7 @@
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="./products.php">Best Seller</a></li>
+							<li><a href="./data.php">Pricelist</a></li>
 						
 						</ul>
 					</nav>
@@ -113,7 +114,7 @@
 							<li class="span3">
 								<div class="product-box">
 									<span class="sale_tag"></span>
-									<p><a href="Pizzas/Italian Delight.php"><img src="themes/images/Pizza Photos/Italian Delight/Main.jpg" alt="" /></a></p>
+									<p><a href="Pizzas/Italian Delight..php"><img src="themes/images/Pizza Photos/Italian Delight/Main.jpg" alt="" /></a></p>
 									<a href="Pizzas/Italian Delight.php" class="title">Italian Delight</a><br/>
 									<a href="Pizzas/Italian Delight.php" class="category">Salami, Smoked Ham, Mushroom, and Mozarella Cheese</a>
 									<p class="price">₱299.00</p>
@@ -123,7 +124,7 @@
 								<div class="product-box">
 									<p><a href="Pizzas/Hawaiiain Classic.php"><img src="themes/images/Pizza Photos/Hawaiiain Classic/Main.jpg" alt="" /></a></p>
 									<a href="Pizzas/Hawaiiain Classic.php" class="title">Hawaiiain Classic</a><br/>
-									<a href="products.php" class="category">All time favourite, Smoked Ham, Pineapple and Mozarella Cheese</a>
+									<a href="products..php" class="category">All time favourite, Smoked Ham, Pineapple and Mozarella Cheese</a>
 									<p class="price">₱260.00</p>
 								</div>
 							</li>
@@ -256,11 +257,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./home.php">Homepage</a></li>
-							<li><a href="./about.php">About Us</a></li>
-							<li><a href="./contact.php">Contac Us</a></li>
-							<li><a href="./cart.php">Your Cart</a></li>
-							<li><a href="./register.php">Login</a></li>
+							<li><a href="./index..php">Homepage</a></li>
+							<li><a href="./about..php">About Us</a></li>
+							<li><a href="./contact..php">Contac Us</a></li>
+							<li><a href="./cart..php">Your Cart</a></li>
+							<li><a href="./register..php">Login</a></li>
 						</ul>
 					</div>
 					<div class="span4">
@@ -287,7 +288,7 @@
 				</div>
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
+				<span>Copyright 2023 All right reserved.</span>
 			</section>
 		</div>
 		<script src="themes/js/common.js"></script>

@@ -28,6 +28,7 @@ a:hover{
 	color:#fd4004;	
 	text-decoration:none;
 }
+	
 .img-al{
 	margin: 0 10px 10px 0;
 	float:left;
@@ -142,6 +143,9 @@ section.header_text.sub h4{
 }
 iframe{
 	border-bottom:2px solid #eee;
+}
+.span9 ul li a{
+	float: left;
 }
 /* end common */
 
